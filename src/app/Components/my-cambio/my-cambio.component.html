@@ -1,0 +1,26 @@
+<p style="text-align: center">
+  Esta cantidad equivale a 
+</p>
+<ion-row>
+  <ion-col>
+    <ion-item>
+      <ion-input type="number" [(ngModel)]="componentNumber.numero" placeholder="Pesos"></ion-input>
+    </ion-item>
+  </ion-col>
+</ion-row>
+<br>
+<div>
+  ${{componentNumber.numero}} pesos <=> ${{componentNumber.numero * 0.048}}  dolares
+</div>
+<div>
+  ${{componentNumber.numero}} pesos <=> £{{componentNumber.numero * 0.036}}  libras
+</div>
+<div>
+  ${{componentNumber.numero}} pesos <=> €{{componentNumber.numero * 0.040}}  euros
+</div>
+<div>
+  ${{componentNumber.numero}} pesos <=> ¥{{componentNumber.numero * 4.994}}  yenes
+</div>
+<div>
+  ${{componentNumber.numero}} pesos <=> ₩{{componentNumber.numero * 54.185}}  wones
+</div>

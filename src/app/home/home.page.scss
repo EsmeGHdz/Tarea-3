@@ -1,0 +1,28 @@
+#container {
+  text-align: center;
+  background-image: url('https://s1.qwant.com/thumbr/0x380/0/f/8cdc21d820d7558dd9daf0b9ebf39a58d7f4f6248157970e13b6de8c89c6bb/tumblr_p1jbc7uhUv1uj7swzo6_1280.png?u=https%3A%2F%2F78.media.tumblr.com%2F98ac2c37901407f23a05e80d1cf5c4cd%2Ftumblr_p1jbc7uhUv1uj7swzo6_1280.png&q=0&b=1&p=0&a=1');
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
